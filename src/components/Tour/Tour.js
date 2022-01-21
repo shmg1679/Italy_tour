@@ -33,6 +33,7 @@ export default class Tour extends Component{
                         </span>
                     </h5>
                     {this.state.showInfo && <p>{info}</p>}
+                    <br/>
                     <iframe src={map}></iframe>
                 </div>
             </article>

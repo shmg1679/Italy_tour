@@ -79,8 +79,9 @@ function about() {
         <p className='textCenter'><br/> This is an authentic Genoese  pesto made with  basil, garlic, pine nuts, and both Parmesan cheese & Pecorino cheese. Yum ! Yum!!<br/><br/></p>
         </div>
         <div className='center border-hover'>
-        <h3>Befana Cake in Epiphany</h3>
-          <img className= 'foodImg' src="https://archivio.letitwine.com/wp-content/uploads/2015/12/shutterstock_208581928.jpg"/>
+        <h3>Befana Cake</h3>
+          <img className= 'foodImg' src="http://www.eataly.com/wp/wp-content/uploads/2015/12/Panettone.jpg
+"/>
               <p><br/>A cake with a large dried bean inside. Whoever gets the bean in 
                 their slice will be king/queen for the day.<br/><br/> 
               </p>
