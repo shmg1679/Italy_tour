@@ -8,10 +8,14 @@ $mainBlack: #222;
 $mainGreen: #82b340;
 $mainWhite: #fff;
 $mainGrey: #ececec;
-$mainTransition: all .3s linear;
+$mainTransition: all 0.3s linear;
+//(Shiming, Israel, Samy) change styling
+$mainPurple: #4c40b3;
+$mainFlag: linear-gradient(0.25turn, #cd212a, #f4f5f0, #008c45);
+$mainT: rgba(255, 255, 255, 0.5);
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background: $mainWhite;
+  font-family: "Open Sane", sans-serif;
+  background: $mainFlag; //(Shiming, Israel, Samy) change styling
   color: $mainBlack;
 }
