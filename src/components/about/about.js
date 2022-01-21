@@ -82,7 +82,7 @@ function about() {
         <h3>Befana Cake</h3>
           <img className= 'foodImg' src="http://www.eataly.com/wp/wp-content/uploads/2015/12/Panettone.jpg
 "/>
-              <p><br/>A cake with a large dried bean inside. Whoever gets the bean in 
+              <p className='textCenter'><br/>A cake with a large dried bean inside. Whoever gets the bean in 
                 their slice will be king/queen for the day.<br/><br/> 
               </p>
         </div>
@@ -97,7 +97,7 @@ function about() {
       <img className="foodImg" src="https://wineandtravelitaly.com/wp-content/uploads/2020/01/La-Befana.jpg"/>
 
 
-      <p><br/>Epiphany marks the end of the Christmas period 
+      <p className='textCenter'><br/>Epiphany marks the end of the Christmas period 
         and celebrates the birth of Jesus. In italian folklore, 
         Befana is an old soot-covered woman or witch who delivers 
         presents to Italian children on the night before Epiphany eve. 
@@ -115,7 +115,7 @@ function about() {
               <h3>Carnevale(Mardi Gras)</h3>
               <img className='foodImg' src="https://www.marthasitaly.com/images/264.jpg"/>
 
-                  <p>
+                  <p className='textCenter'>
                     <br/>
                     Mardi Gras or fat Tuesday is a Carnival celebration, reflecting
                     the practice of the last night of eating rich, fatty foods before 
