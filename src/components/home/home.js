@@ -11,13 +11,17 @@ function Home() {
 <div>
  
 
-  <div className="welcome"><h6>Welcome to Italy!</h6></div>
+  <div className="welcome"><h5>Welcome to Italy!</h5>
+    <h3>The only country you'll ever want to visit, 
+  and the one you'll NEVER leave</h3>  </div>
 
-  <div className="slogan">The only country you'll ever want to visit, and the one you'll NEVER leave</div>
+<br/>
 
-  <p>
+
+
+  <div>
              <button className="button" id="reveal" onClick={text}> **Click to win a free ticket!** </button>
-  </p> 
+  </div> 
   
  
 

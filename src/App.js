@@ -11,20 +11,14 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route path="TourList" element={<TourList />} />
-          <Route path="about" element={<About />} />
-          <Route path="home" element={<Home />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    
-      // <React.Fragment>
-      //   <Navbar />
-      //   <TourList />
-      //   {/* <about /> */}
-      // </React.Fragment>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route path="TourList" element={<TourList />} />
+            <Route path="about" element={<About />} />
+            <Route path="home" element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     );
   }
 }
