@@ -1,66 +1,3 @@
-// import React from 'react';
-// import "./about.scss";
-
-
-// export default function About() {
-//   return (
-//     <div className='about_body'>
-      
-//       <div className='header'>
-//         <h1>About Italy</h1>
-//         </div>  
-
-
-//       <div className='about_carousell'>
-//         {/* rey */}      
-//         </div>
-
-
-//       < div className='food'> 
-//       {/* ayesha */}
-//       <h2>Famous Foods in Italy</h2>
-//         <div className="img-container">
-//           </div
-         
-
-
-//   <div className='festival'>
-//       {/* jennifer */}
-//       <h2>Fesivals</h2>
-//       <div className="img-container">
-//         <img src="https://wineandtravelitaly.com/wp-content/uploads/2020/01/La-Befana.jpg"/>
-//       </div>
-//       <h3>the Epiphany</h3>
-//       <p>Epiphany marks the end of the Christmas period 
-//         and celebrates the birth of Jesus. In italian folklore, 
-//         Befana is an old soot-covered woman or witch who delivers 
-//         presents to Italian children on the night before Epiphany eve. 
-//         This is because the Magi ( three wise men ) were on their way to 
-//         see baby jesus with gifts. They asked if she would like to join. 
-//         At first she refused, but later changed her mind and tried to look 
-//         for him. Since she never found him, she gave the presents to other 
-//         children.To this day, she travels on her broomstick every year on 
-//         January 5th looking for the manger and giving her presents to any 
-//         Italian child who leaves out a shoe or hangs up a stocking on Epiphany 
-//         Eve. 
-//       </p>
-
-
-//       <h3>Befana Cake in Epiphany</h3>
-//       <img src="https://wineandtravelitaly.com/wp-content/uploads/2020/01/La-Befana.jpg"/>
-//       <p>a cake with a large dried bean inside. Whoever gets the bean in 
-//         their slice will be king/queen for the day. 
-//       </p>
-//         </div>
-
-
-//       <div className='tradition'></div>
-//        {/* Title */}
-//         <h3>New Years Tradition</h3>
-//     );
-// }
-
-
 import React from 'react';
 import "./about.scss";
 import landmark1 from "./aboutImg/landmark1.jpg";
@@ -127,27 +64,39 @@ function about() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
     
-
     <div className='famous-food'>
       <h2>Famous Foods in Italy</h2>
+      <div className="famousFoodRow">
        
-        <img src="../../public/img/1.jpeg"/>
-          
-        <h2>Pesto alla Genovese</h2>
-        <h3>This is an authentic Genoese  pesto made with  basil, garlic, pine nuts, and both Paarmesan cheese & Pecorino cheese. Yum ! Yum!!</h3>
-          
+
+        <div className='center border-hover'>
+        <h3>Pesto alla Genovese</h3>
+        <img className= 'foodImg' src="https://img.apmcdn.org/0e4435c2e116941cafc74410f7419e47d1de860c/uncropped/84dad5-splendid-table-470822257.jpg"/>
+        <p className='textCenter'><br/> This is an authentic Genoese  pesto made with  basil, garlic, pine nuts, and both Parmesan cheese & Pecorino cheese. Yum ! Yum!!<br/><br/></p>
+        </div>
+        <div className='center border-hover'>
+        <h3>Befana Cake in Epiphany</h3>
+          <img className= 'foodImg' src="https://archivio.letitwine.com/wp-content/uploads/2015/12/shutterstock_208581928.jpg"/>
+              <p><br/>A cake with a large dried bean inside. Whoever gets the bean in 
+                their slice will be king/queen for the day.<br/><br/> 
+              </p>
+        </div>
+
     </div>
+
       
-    <div className='tradition'>
-    <h2>Fesivals</h2>
-      <div className="img-container">
-        <img src="https://wineandtravelitaly.com/wp-content/uploads/2020/01/La-Befana.jpg"/>
-      </div>
-      <h3>the Epiphany</h3>
-      <p>Epiphany marks the end of the Christmas period 
+    <h2>Festivals</h2>
+      <div className="famousFoodRow">
+      <div className='center border-hover'>
+      <h3>The Epiphany</h3>
+      <img className="foodImg" src="https://wineandtravelitaly.com/wp-content/uploads/2020/01/La-Befana.jpg"/>
+
+
+      <p><br/>Epiphany marks the end of the Christmas period 
         and celebrates the birth of Jesus. In italian folklore, 
         Befana is an old soot-covered woman or witch who delivers 
         presents to Italian children on the night before Epiphany eve. 
@@ -158,23 +107,21 @@ function about() {
         children.To this day, she travels on her broomstick every year on 
         January 5th looking for the manger and giving her presents to any 
         Italian child who leaves out a shoe or hangs up a stocking on Epiphany 
-        Eve. 
+        Eve.<br/><br/>  
       </p>
-
-        <h3>Befana Cake in Epiphany</h3>
-          <img src="https://archivio.letitwine.com/wp-content/uploads/2015/12/shutterstock_208581928.jpg"/>
-              <p>a cake with a large dried bean inside. Whoever gets the bean in 
-                their slice will be king/queen for the day. 
-              </p>
-
+      </div>
+      <div className='center border-hover'>
               <h3>Carnevale(Mardi Gras)</h3>
-                <img src="https://www.marthasitaly.com/images/264.jpg"/>
+              <img className='foodImg' src="https://www.marthasitaly.com/images/264.jpg"/>
+
                   <p>
+                    <br/>
                     Mardi Gras or fat Tuesday is a Carnival celebration, reflecting
                     the practice of the last night of eating rich, fatty foods before 
                     the ritual Lenten sacrifices and fasting of the Lenten season.
                   </p>
-
+    </div>
+    </div>
     </div>
 
       

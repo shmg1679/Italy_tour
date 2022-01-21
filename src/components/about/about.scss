@@ -1,9 +1,47 @@
 @import "../../index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 
 
 h2{
-text-align: center;
-color: $mainGreen;
+  text-align: center;
+  color: rgb(117, 77, 77);
+  font-style: italic;
+  font-family: cursive;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size:xx-large;
+  text-decoration: underline;
+  
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
+}
+
+.foodImg {
+  width: 20rem;
+  height: 20rem;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+p{
+
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0.9%;
+    font-family: 'Luxurious Roman', cursive;
 }
 
 .column {
@@ -31,6 +69,28 @@ color: $mainGreen;
     padding: 0 16px;
     font-weight: 100;
   }
+
+  .famousFoodRow {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    column-gap: .5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textCenter {
+    text-align: center;
+  }
+
+  .border {
+    border: solid;
+    border-color: black;
+  }
+ .m
   
   .container::after, .row::after {
     content: "";
@@ -46,4 +106,15 @@ color: $mainGreen;
   #pic {
       width: 100%;
       height: 10%;
+  }
+
+  .border-hover{
+    transition: box-shadow .5s ease-in-out;
+    border-radius: 10px;
+
+  }
+
+  .border-hover:hover{
+    box-shadow: 5px 5px 5px 5px;
+    transition: box-shadow .5s ease-in-out;
   }

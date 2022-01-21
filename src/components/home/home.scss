@@ -2,45 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
+
+.containerHome{
+  text-align:center;
+  background-image: url(./homeimg/italynight.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
 .welcome {
     // background: $mainBlack;
    
-    background: -webkit-linear-gradient(rgb(247, 202, 4), rgb(218, 127, 8));
+    background: -webkit-linear-gradient(rgb(7, 204, 16), rgb(231, 226, 221), rgb(247, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:flex;
+    font-size: 160px;
+    position: relative;
+    top: 200px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    border: none;
+}
+
+.slogan {
+  // background: $mainBlack;
+ 
+  background: -webkit-linear-gradient(rgb(245, 209, 51), rgb(235, 138, 11), rgb(253, 101, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-    
   display:flex;
   font-size: 80px;
+  position: relative;
+  top: 40px;
   flex-direction: column;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Satisfy', cursive;
-    border: solid;
-    margin-top: 3rem ;
-    position: absolute;
-    
-  
-
-
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  border: none;
 }
 
 
 
+
 .button {
-    background-color: rgb(14, 127, 179); /* Green */
+    background-color: rgb(37, 37, 37); /* Green */
     border-radius: 8px ;
-    color: white;
+    color: $mainGreen;
     padding: 10px 20px 10px 20px;
     text-align: center;
+    position: relative;
+    top: 20rem;
     text-decoration: none;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-size: 16px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 50;
+    font-size: 32px;
+    
+    
 
   }
