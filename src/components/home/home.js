@@ -16,7 +16,7 @@ function Home() {
 <h3 className="slogan">The only country you'll ever want to visit, and the one you'll NEVER leave!</h3>
 
   <div className="welcome"><h5>Welcome to Italy!</h5>
-      </div>
+  </div>
 
       
 <br/>
