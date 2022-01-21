@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../logo.svg";
+import logo from "./logo.png";
 import "./navbar.scss";
 import { Outlet, Link } from "react-router-dom";
 
@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <>
         <nav className="navbar">
-            <img src={logo} alt="city tours company" />
+            <img className = "logo" src={logo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
                 <Link className="nav-link" to="/home">home</Link>
