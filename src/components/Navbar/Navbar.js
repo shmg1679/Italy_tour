@@ -1,28 +1,27 @@
 import React from "react";
 import logo from "../../logo.svg";
 import "./navbar.scss";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
+        <>
         <nav className="navbar">
             <img src={logo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <a href="/" className="nav-link">
-                        home
-                    </a>
+                <Link className="nav-link" to="/home">home</Link>
                 </li>
                 <li>
-                    <a href="/" className="nav-link">
-                        about
-                    </a>
+                <Link className="nav-link" to="/about">about</Link>
                 </li>
                 <li>
-                    <a href="/" className="nav-link active">
-                        tours
-                    </a>
+                <Link className="nav-link" to="/TourList">tours</Link>
                 </li>
             </ul>
         </nav>
+
+        <Outlet />
+        </>
     );
 }
