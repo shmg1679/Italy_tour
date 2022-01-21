@@ -13,9 +13,10 @@ class App extends Component {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />}>
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
             <Route path="TourList" element={<TourList />} />
             <Route path="about" element={<About />} />
-            <Route path="home" element={<Home />} />
           </Route>
         </Routes>
       </BrowserRouter>
